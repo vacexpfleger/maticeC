@@ -4,7 +4,7 @@
 #define COLUMNS 15
 
 void naplnVypisPoleASectiRadky(int matice[ROWS][COLUMNS]) {
-    int hodnota, soucetRadku = 0;;
+    int hodnota, soucetRadku = 0;
     srand((unsigned)time(NULL));
     
     for(int i = 0; i < ROWS; i++) {
